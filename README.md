@@ -71,14 +71,17 @@ Proyek ini dijalankan secara lokal menggunakan **XAMPP** dan diakses melalui bro
 *(Di sini Anda letakkan screenshot dari aplikasi Anda saat berjalan)*
 
 **Halaman Utama**
-![Halaman Utama](URL_GAMBAR_ANDA_DI_SINI.png)
-
-**Halaman Daftar Siswa**
-![Halaman Daftar Siswa](URL_GAMBAR_ANDA_DI_SINI.png)
+![Halaman Utama](https://github.com/danialrajiv/PWeb_tugas9/blob/main/home_page.png)
 
 **Halaman Formulir Pendaftaran**
-![Formulir Pendaftaran](URL_GAMBAR_ANDA_DI_SINI.png)
+![Formulir Pendaftaran](https://github.com/danialrajiv/PWeb_tugas9/blob/main/form_page.png)
+
+**Halaman Daftar Siswa**
+![Halaman Daftar Siswa](https://github.com/danialrajiv/PWeb_tugas9/blob/main/list_page.png)
 
 **Halaman Formulir Edit**
-![Formulir Edit](URL_GAMBAR_ANDA_DI_SINI.png)
-https://github.com/danialrajiv/PWeb_tugas9/blob/main/database_mysql.png
+![Formulir Edit](https://github.com/danialrajiv/PWeb_tugas9/blob/main/edit_page.png)
+
+**Halaman database MySQL**
+![Formulir Pendaftaran](https://github.com/danialrajiv/PWeb_tugas9/blob/main/database_mysql.png)
+
