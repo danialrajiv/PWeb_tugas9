@@ -42,33 +42,8 @@ Proyek ini dijalankan secara lokal menggunakan **XAMPP** dan diakses melalui bro
 
 ---
 
-### 🚀 Cara Menjalankan Aplikasi
-1.  **Clone Repositori**: Unduh atau clone repositori ini ke komputer Anda.
-2.  **Pindahkan Folder**: Letakkan folder proyek ke dalam direktori `htdocs` di dalam folder instalasi XAMPP Anda (biasanya `C:\xampp\htdocs\`).
-3.  **Jalankan XAMPP**: Buka XAMPP Control Panel dan jalankan service **Apache** dan **MySQL**.
-4.  **Buat Database & Tabel**:
-    * Buka browser dan akses `http://localhost/phpmyadmin`.
-    * Buat database baru dengan nama `db_pendaftaran_siswa`.
-    * Masuk ke tab **SQL** dan jalankan query berikut untuk membuat tabel `calon_siswa`:
-    ```sql
-    CREATE TABLE `calon_siswa` (
-      `id` int(11) NOT NULL AUTO_INCREMENT,
-      `nama` varchar(64) NOT NULL,
-      `alamat` text NOT NULL,
-      `jenis_kelamin` varchar(16) NOT NULL,
-      `agama` varchar(16) NOT NULL,
-      `asal_sekolah` varchar(64) NOT NULL,
-      `tanggal_daftar` timestamp NOT NULL DEFAULT current_timestamp(),
-      PRIMARY KEY (`id`)
-    ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
-    ```
-5.  **Akses Aplikasi**: Buka kembali browser Anda dan akses alamat `http://localhost/nama-folder-proyek-anda/` (misal: `http://localhost/pendaftaran-db/`).
-
----
-
 ### 🖼️ Tampilan Web (Screenshot)
 
-*(Di sini Anda letakkan screenshot dari aplikasi Anda saat berjalan)*
 
 **Halaman Utama**
 ![Halaman Utama](https://github.com/danialrajiv/PWeb_tugas9/blob/main/home_page.png)
